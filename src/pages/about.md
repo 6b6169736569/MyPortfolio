@@ -21,6 +21,9 @@ tags:
 
 - ⚡ Fun fact **I am passionate and straight forward.**
 
+## Education
+Bachelor of Information-Oriented Management, Sanno Univarcity - Kanagawa, Japan 2017
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://dev.to/https://dev.to/6b6169736569" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="https://dev.to/6b6169736569" height="30" width="40" /></a>
