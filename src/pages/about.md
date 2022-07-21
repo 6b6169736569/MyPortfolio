@@ -10,7 +10,7 @@ tags:
   - coffee
   - soccer
 ---
-<h1 align="center">Hi 👋, I'm 6b6169736569</h1>
+<h1 align="center">Hello 👋, I'm 6b6169736569</h1>
 <h3 align="center">I am a system integrator living in Japan.</h3>
 
 - 🔭 I’m currently working on **Japanese Government related systems**
