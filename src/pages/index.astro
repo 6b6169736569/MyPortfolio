@@ -5,6 +5,7 @@ import Button from '../components/Button/index.jsx';
 import Nav from '../components/Nav/index.jsx';
 import Footer from '../components/Footer/index.jsx';
 import PortfolioPreview from '../components/PortfolioPreview/index.jsx';
+const { GOOGLE_TRACKING_ID } = import.meta.env;
 
 // Data Fetching: List all Markdown posts in the repo.
 const projects = await Astro.glob('./project/**/*.md');
@@ -37,7 +38,7 @@ const featuredProject = projects[0];
 
 			.gradient,
 			.gradient2 {
-				background-image: url('/assets/mesh-gradient.jpg');
+				background-image: url('/assets/img/mesh-gradient.jpg');
 				background-size: cover;
 				pointer-events: none;
 				mix-blend-mode: screen;
@@ -182,6 +183,14 @@ const featuredProject = projects[0];
 				}
 			}
 		</style>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=${GOOGLE_TRACKING_ID}"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', GOOGLE_TRACKING_ID);
+		</script>
 	</head>
 	<body>
 		<Nav />
@@ -190,8 +199,8 @@ const featuredProject = projects[0];
 				width="1600"
 				height="1131"
 				class="img"
-				src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&q=75"
-				srcSet="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&q=75 800w,https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&q=75 1200w,https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1600&q=75 1600w,https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=2400&q=75 2400w"
+				src="/assets/img/Snowboard.jpg"
+				srcSet="/assets/img/Snowboard.jpg 800w,/assets/img/Snowboard.jpg 1200w,/assets/img/Snowboard.jpg 1600w,/assets/img/Snowboard.jpg 2400w"
 				sizes="(max-width: 800px) 800px, (max-width: 1200px) 1200px, (max-width: 1600px) 1600px, (max-width: 2400px) 2400px, 1200px"
 			/>
 			<div class="gradient"></div>

@@ -11,7 +11,6 @@ We value the customer's perspective in providing services and believe that the g
 ## Work Experience
 ***
 ### Software Engineer,Apr.2017-present
-#### Fujifilm System Service INC.
 - Cloud Business Promotion Department(Apr.2020-present)
   - I am in charge of the operation and implementation of cloud services, mainly working on automation development and improvement activities.
     - Development of portal sites created with AWS serverless configuration

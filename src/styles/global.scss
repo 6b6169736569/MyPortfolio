@@ -56,11 +56,15 @@
 }
 
 // Base
+@font-face {
+	font-family: 'ipamjm';
+	src: url(/assets/font/ipamjm.ttf);
+}
 
 body {
 	margin: 0;
 	color: var(--t-fg);
-	font-family: 'Inter', 'system-ui', sans-serif;
+	font-family: 'ipamjm';
 }
 
 * {
