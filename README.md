@@ -1,24 +1,25 @@
-# Astro Starter Kit: Portfolio
+# MyPortfolio
+## Overview
 
-```
-npm init astro -- --template portfolio
-```
+## Requirement
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/portfolio)
+## Usage
+### development
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+### Release
+#### Heroku
 
-## 🧞 Commands
+#### AWS
 
-All commands are run from the root of the project, from a terminal:
 
-| Command           | Action                                       |
-|:----------------  |:-------------------------------------------- |
-| `npm install`     | Installs dependencies                        |
-| `npm run dev`     | Starts local dev server at `localhost:3000`  |
-| `npm run build`   | Build your production site to `./dist/`      |
-| `npm run preview` | Preview your build locally, before deploying |
+## Deatures
 
-## 👀 Want to learn more?
+## Reference
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## Author
+[Github](https://github.com/6b6169736569)
+[Twitter](https://twitter.com/6b6169736569)
+[Qiita](https://qiita.com/6b6169736569)
+
+## Licence
+[MIT](https://opensource.org/licenses/mit-license.php)

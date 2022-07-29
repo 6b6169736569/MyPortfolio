@@ -5,7 +5,6 @@ import Button from '../components/Button/index.jsx';
 import Nav from '../components/Nav/index.jsx';
 import Footer from '../components/Footer/index.jsx';
 import PortfolioPreview from '../components/PortfolioPreview/index.jsx';
-const { GOOGLE_TRACKING_ID } = import.meta.env;
 
 // Data Fetching: List all Markdown posts in the repo.
 const projects = await Astro.glob('./project/**/*.md');
@@ -186,12 +185,10 @@ const featuredProject = projects[0];
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-C36FGJEJBT"></script>
 		<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		gtag('config', 'G-C36FGJEJBT');
-		console.log(GOOGLE_TRACKING_ID)
-		console.log(process.env.GOOGLE_TRACKING_ID)
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-C36FGJEJBT');
 		</script>
 	</head>
 	<body>
